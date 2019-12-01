@@ -4,7 +4,7 @@
   
 **Space Complexity:** O(m\*n) where m is the length of the first string and n is the length of the second string.
   
-'''python  
+```python  
 class Solution:
     def longestCommonSubsequence(self, string1: str, string2: str) -> int:
         ''' returns the longest common subsequence'''
@@ -20,4 +20,4 @@ class Solution:
                 else:
                     matrix[i][j] = max(matrix[i-1][j], matrix[i][j-1])
         return matrix[len(string1)][len(string2)]
-'''
+```
