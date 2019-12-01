@@ -4,7 +4,7 @@ From the looks of it, this seems like a simple enough problem to solve in quadra
 
 For each character in the first string, we can see if that character is the same as the character in the second string we are comparing to. If it is, we can fill in the matrix with the highest countincrement our count by 1, else we will continue to fill in the matrix with the highest length so far. The last element in the matrix is our answer.
 
-Below is the solution written in python:
+Below is the solution written in python3:
 
 ```python  
 class Solution:
