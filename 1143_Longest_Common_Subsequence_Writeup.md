@@ -1,4 +1,4 @@
-# Solution
+# Solution 1143: *Longest Common Subsequence*
 
 From the looks of it, this seems like a simple enough problem to solve in quadratic time and space using dynamic programming. We can simply create an M-by-N matrix (where M is the length of the first string and N is the length of the second string) and fill in the matrix with the count of the longest common subsequence as we iterate through each character of both strings. 
 
