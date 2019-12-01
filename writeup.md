@@ -28,7 +28,7 @@ class Solution:
 
 **Space Complexity:** O(M\*N) 
 
-*Where m is the length of the first string and n is the length of the second string.*
+*Where M is the length of the first string and N is the length of the second string.*
 
 # Algorithm
 
