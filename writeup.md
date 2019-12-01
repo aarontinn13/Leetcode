@@ -24,9 +24,9 @@ class Solution:
         return matrix[len(string1)][len(string2)]
 ```
 
-**Time Complexity:** O(m\*n) where m is the length of the first string and n is the length of the second string.
-  
-**Space Complexity:** O(m\*n) where m is the length of the first string and n is the length of the second string.
+**Time Complexity:** O(M\*N) 
+**Space Complexity:** O(M\*N) 
+*Where m is the length of the first string and n is the length of the second string.*
 
 
 | 0 | 0 | A | B | C | D |
