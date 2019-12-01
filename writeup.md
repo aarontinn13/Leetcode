@@ -42,9 +42,8 @@ class Solution:
 
 Below is an example of a finished matrix with the strings `ACD` and `ABCD` the solution written in python:
 
-| 0 | 0 | A | B | C | D |
-|---|---|---|---|---|---|
 | 0 | 0 | 0 | 0 | 0 | 0 |
-| A | 0 | 1 | 1 | 1 | 1 |
-| C | 0 | 1 | 1 | 2 | 2 |
-| D | 0 | 1 | 1 | 2 | 3 |
+|---|---|---|---|---|---|
+| **A** | 0 | 1 | 1 | 1 | 1 |
+| **C** | 0 | 1 | 1 | 2 | 2 |
+| **D** | 0 | 1 | 1 | 2 | 3 |
