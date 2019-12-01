@@ -40,7 +40,7 @@ class Solution:
 6. Else, if `string1[i-1]` is not the same as `string2[j-1]`, we will set the current index of the matrix `matrix[i][j]` to the max value between `matrix[i-1][j], matrix[i][j-1]`
 7. When the matrix is complete, return the last value in the matrix: `matrix[len(string1)][len(string2)]`
 
-Below is an example of a finished matrix with the strings `ACD` and `ABCD` the solution `3` written in python:
+Below is an example of a finished matrix with the strings `ACD` and `ABCD` the solution: `3`
 
 | 0 | 0 | 0 | 0 | 0 |
 |---|---|---|---|---|
