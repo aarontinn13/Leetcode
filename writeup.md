@@ -1,3 +1,5 @@
+# Solution
+
 From the looks of it, this seems like a simple enough problem to solve in quadratic time and space using dynamic programming. We can simply create an M-by-N matrix (where M is the length of the first string and N is the length of the second string) and fill in the matrix with the count of the longest common subsequence as we iterate through each character of both strings. 
 
 For each character in the first string, we can see if that character is the same as the character in the second string we are comparing to. If it is, we can fill in the matrix with the highest countincrement our count by 1, else we will continue to fill in the matrix with the highest length so far. The last element in the matrix is our answer.
