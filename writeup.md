@@ -4,7 +4,7 @@ From the looks of it, this seems like a simple enough problem to solve in quadra
 
 For each character in the first string, we can see if that character is the same as the character in the second string we are comparing to. If it is, we can fill in the matrix with the highest countincrement our count by 1, else we will continue to fill in the matrix with the highest length so far. The last element in the matrix is our answer.
 
-Below is the solution written in python.
+Below is the solution written in python:
 
 ```python  
 class Solution:
@@ -30,6 +30,17 @@ class Solution:
 
 *Where m is the length of the first string and n is the length of the second string.*
 
+# Algorithm
+
+1. Initialize an `M+1 by N+1` matrix where we will store the counts.
+2. Set the first row of the matrix and first column of the matrix to zeroes as these are the base case.
+3. Create an outer loop to iterate from `1` to `len(string1)+1` where the index `i` will be the index of the current letter of `string1`. 
+4. Create an inner loop to iterate from `1` to `len(string2)+1` where the index `j` will be the index of the current lettter of `string2`.
+5. If `string1[i-1]` is the same as `string2[j-1]`, we can increment the highest count seen by setting the current index of the matrix `matrix[i][j]` to `matrix[i-1][j-1]+1`.
+6. Else, if `string1[i-1]` is not the same as `string2[j-1]`, we will set the current index of the matrix `matrix[i][j]` to the max value between `matrix[i-1][j], matrix[i][j-1]`
+7. When the matrix is complete, return the last value in the matrix: `matrix[len(string1)][len(string2)]`
+
+Below is an example of a finished matrix with the strings `ACD` and `ABCD` the solution written in python:
 
 | 0 | 0 | A | B | C | D |
 |---|---|---|---|---|---|
