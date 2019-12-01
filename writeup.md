@@ -21,3 +21,6 @@ class Solution:
                     matrix[i][j] = max(matrix[i-1][j], matrix[i][j-1])
         return matrix[len(string1)][len(string2)]
 ```
+0 | 0 | A | B | C | D
+0 | 0 | 0 | 0 | 0 | 0
+1 | 2 | 3 | 4 | 5 | 6
